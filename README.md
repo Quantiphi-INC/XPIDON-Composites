@@ -16,7 +16,17 @@ The XPIDON model is based on the DeepONet architecture, which learns operators m
 
 ![DeepONet Architecture](images/arch.jpg)
 
-*a) Schematic representation of the composite-tool system inside an autoclave, including local coordinates <img src="https://render.githubusercontent.com/render/math?math=x_{1}"> and <img src="https://render.githubusercontent.com/render/math?math=x_{2}">. b) Architecture of the proposed sub-XPIDON model for predicting part temperature <img src="https://render.githubusercontent.com/render/math?math=G^{T_c}">. The same architecture is utilized for other output variables, including degree of cure <img src="https://render.githubusercontent.com/render/math?math=G^{\\alpha}"> and tool temperature <img src="https://render.githubusercontent.com/render/math?math=G^{T_t}">. c) Illustration of the proposed XPIDON framework with a nonlinear decoder and domain decomposition, designed for thermochemical analysis during the composite curing process.*
+*a) Schematic representation of the composite-tool system inside an autoclave, including local coordinates 
+<img src="https://render.githubusercontent.com/render/math?math=x_%7B1%7D"> and 
+<img src="https://render.githubusercontent.com/render/math?math=x_%7B2%7D">.  
+
+b) Architecture of the proposed sub-XPIDON model for predicting part temperature 
+<img src="https://render.githubusercontent.com/render/math?math=G%5E%7BT_c%7D">. The same architecture is utilized for other output variables, including degree of cure 
+<img src="https://render.githubusercontent.com/render/math?math=G%5E%7B%5Calpha%7D"> and tool temperature 
+<img src="https://render.githubusercontent.com/render/math?math=G%5E%7BT_t%7D">.  
+
+c) Illustration of the proposed XPIDON framework with a nonlinear decoder and domain decomposition, designed for thermochemical analysis during the composite curing process.*
+
 
 
 
