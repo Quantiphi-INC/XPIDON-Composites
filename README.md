@@ -54,7 +54,7 @@ This codebase can also be adapted for our paper:
 If you find this work useful, please cite our paper:  
 
 ```bibtex
-@article{@article{PATEL2025112935,
+@article{PATEL2025112935,
 title = {An extended physics-informed neural operator for accelerated design optimization in composites autoclave processing},
 journal = {Composites Part B: Engineering},
 pages = {112935},
