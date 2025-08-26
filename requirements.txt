@@ -1,0 +1,6 @@
+numpy==1.26.4
+matplotlib==3.9.2
+jax==0.4.33
+torch==2.4.1
+scipy==1.14.1
+optax==0.2.3

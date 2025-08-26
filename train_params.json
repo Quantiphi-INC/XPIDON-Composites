@@ -1,0 +1,16 @@
+{
+    "N": 500,
+    "P_ic": 100,
+    "P_bc": 100,
+    "Q_train": 500,
+    "batch_size_ic": 64,
+    "batch_size_inf": 128,
+    "batch_size_bc": 128,
+    "batch_size_res": 256,
+    "w_ic_T": 1,
+    "w_bcb": 5,
+    "w_bct": 5,
+    "w_ic_a": 1,
+    "w_ode": 1
+  }
+  
