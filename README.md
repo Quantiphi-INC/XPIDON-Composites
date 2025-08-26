@@ -15,7 +15,7 @@ The project addresses the challenge of long-duration transient simulations by de
 The XPIDON model is based on the DeepONet architecture, which learns operators mapping input functions to output functions. It comprises a Branch Network (for input functions), a Trunk Network (for spatio-temporal coordinates), and a Nonlinear Decoder. The use of a nonlinear decoder enhances the model's ability to capture complex relationships, while separate input normalization handle spectral bais.
 
 ![DeepONet Architecture](images/arch.jpg)
-*a) Schematic representation of the composite-tool system inside an autoclave, including local coordinates `x₁` and `x₂`. b) Architecture of the proposed sub-XPIDON model for predicting part temperature G^(T_c). The same architecture is utilized for other output variables, including degree of cure G^(α) and tool temperature G^(T_t). c) Illustration of the proposed XPIDON framework with a nonlinear decoder and domain decomposition, designed for thermochemical analysis during the composite curing process.*
+*a) Schematic representation of the composite-tool system inside an autoclave, including local coordinates `x₁` and `x₂`. b) Architecture of the proposed sub-XPIDON model for predicting part temperature Gᵀᶜ. The same architecture is utilized for other output variables, including degree of cure Gᵅ and tool temperature Gᵀᵗ. c) Illustration of the proposed XPIDON framework with a nonlinear decoder and domain decomposition, designed for thermochemical analysis during the composite curing process.*
 
 
 
