@@ -33,7 +33,7 @@ The XPIDON model is based on the DeepONet architecture, which learns operators m
     pip install -r requirements.txt
     ```
     (Ensure JAX is installed correctly for your CPU/GPU setup as per JAX documentation.)
-3.  **Prepare `exp_params.json`, `phy_params.json` and `train_params.json` ** in the root directory.
+3.  Prepare `exp_params.json`, `phy_params.json` and `train_params.json` in the root directory.
     *   **`phy_params.json`**: Modify physical material properties (e.g., thermal conductivities, cure kinetics constants) here.
     *   **`exp_params.json`**: Adjust experimental parameters such as the range of input functions (ramp rates, hold temperatures, durations, heat transfer coefficients, tool thickness), total process time, and initial conditions.
     *   **`train_params.json`**: Configure training parameters, such as the number of collocation points, batch sizes, and weights assigned to each loss component.
