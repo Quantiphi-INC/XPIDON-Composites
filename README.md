@@ -1,6 +1,6 @@
 # An Extended Physics-Informed DeepONet (XPIDON) for Autoclave Composite Curing
 
-Code for **Extended Physics-Informed DeepONet (XPIDON)** — accepted at the [ICLR 2025 AI4Mat Workshop](https://sites.google.com/view/ai4mat/ai4mat-iclr-2025/accepted-work-ai4mat-iclr-2025).  
+Code for **Extended Physics-Informed DeepONet (XPIDON)** : accepted at the [ICLR 2025 AI4Mat Workshop](https://sites.google.com/view/ai4mat/ai4mat-iclr-2025/accepted-work-ai4mat-iclr-2025) and published at [Composites Part b: Engieering journal](https://www.sciencedirect.com/science/article/pii/S1359836825008418). 
 
 **This work has been developed by Quantiphi’s PhiLabs.**
 
