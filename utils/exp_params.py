@@ -65,9 +65,9 @@ class ExpParams:
         self.T_ini = self.T_ini * self.T_scaler
 
         # Calculate Vector for minimum level for input function
-        self.minvals = [(self.r1_min/60) * (self.T_scaler * self.t_max), (100) * self.T_scaler, (50*60) / self.t_max, (1.5/60) * (self.T_scaler * self.t_max), (175) * self.T_scaler, (100*60) / self.t_max, 40 * self.h_scaler, 70 * self.h_scaler, 0.02 * self.len_scaler]
+        self.minvals = [(self.r1_min/60) * (self.T_scaler * self.t_max), (self.ht1_min) * self.T_scaler, (self.hd1_min*60) / self.t_max, (self.r2_min/60) * (self.T_scaler * self.t_max), (self.ht2_min) * self.T_scaler, (self.hd2_min*60) / self.t_max, self.hcb_min * self.h_scaler, self.hct_min * self.h_scaler, self.lt_min * self.len_scaler]
         # Calculate Vector for minimum level for input function
-        self.maxvals = [(self.r1_max/60) * (self.T_scaler * self.t_max), (120) * self.T_scaler, (70*60) / self.t_max, (3/60) * (self.T_scaler * self.t_max), (185) * self.T_scaler, (110*60) / self.t_max, 90 * self.h_scaler, 120 * self.h_scaler, 0.04 * self.len_scaler]
+        self.maxvals = [(self.r1_max/60) * (self.T_scaler * self.t_max), (self.ht1_max) * self.T_scaler, (self.hd1_max*60) / self.t_max, (self.r2_max/60) * (self.T_scaler * self.t_max), (self.ht2_max) * self.T_scaler, (self.hd2_max*60) / self.t_max, self.hcb_max * self.h_scaler, self.hct_max * self.h_scaler, self.lt_max * self.len_scaler]
 
     def __repr__(self):
         return f"ExpParams({', '.join(f'{k}={v}' for k, v in self.__dict__.items())})"
