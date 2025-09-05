@@ -16,7 +16,7 @@
   "hd2_max" : 110,
   "hcb_max" : 90,
   "hct_max" : 120,
-  "lt_max"  : 0.04,
+  "lt_max"  : 0.07,
   "T_max" : 250,
   "t_max" : 18800,
   "l_max" : 0.05,
@@ -24,3 +24,4 @@
   "T_ini" : 20,
   "alpha_ini" : 0.05
 }
+
